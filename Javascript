@@ -1,0 +1,8 @@
+
+
+function calcular(){
+    var peso = document.getElementById("input1").value
+    var altura = document.getElementById("input2").value
+    var imc = peso/(altura^2) 
+    document.getElementById("demo").innerHTML = "I have changed!"; 
+}
